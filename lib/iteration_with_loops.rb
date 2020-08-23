@@ -13,6 +13,5 @@ def join_nested_strings(src)
         end
         count += 1
     end
-    string.join(" ")
     string
 end
