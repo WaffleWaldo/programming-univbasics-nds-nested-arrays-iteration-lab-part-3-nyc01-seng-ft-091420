@@ -7,7 +7,7 @@ def join_nested_strings(src)
         incount = 0
         while incount < src[count].count do
             if src[count][incount].is_a?(String)
-                string = string + src[count][incount]
+                string = string + " " + src[count][incount]
             end
             incount += 1
         end
